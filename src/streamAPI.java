@@ -13,5 +13,11 @@ public class streamAPI {
         System.out.println(count);
         Stream<Integer> map = list.stream().map(n->n*2);
         map.forEach(n-> System.out.println(n+" "));
+
+        list.stream()
+                .filter(n->n%2==1)
+                .sorted()
+                .map(n->n*2)
+                .forEach(n-> System.out.print(n+" "));
     }
 }
