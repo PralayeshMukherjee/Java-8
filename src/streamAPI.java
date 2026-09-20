@@ -11,5 +11,7 @@ public class streamAPI {
         Stream<Integer> countN = list.stream();
         long count = countN.count();
         System.out.println(count);
+        Stream<Integer> map = list.stream().map(n->n*2);
+        map.forEach(n-> System.out.println(n+" "));
     }
 }
