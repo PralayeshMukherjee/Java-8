@@ -1,3 +1,6 @@
+import java.util.function.IntBinaryOperator;
+
+import static java.lang.Integer.sum;
 
 //  @FunctionalInterface
 interface C{
