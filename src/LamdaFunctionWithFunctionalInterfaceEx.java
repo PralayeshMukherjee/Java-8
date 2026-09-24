@@ -6,7 +6,9 @@ interface Math{
     int modulas(int a,int b);
 }
 class Calculator implements Math{
-
+    public int sum(int a,int b){
+        return a+b;
+    }
 }
 public class LamdaFunctionWithFunctionalInterfaceEx {
 }
