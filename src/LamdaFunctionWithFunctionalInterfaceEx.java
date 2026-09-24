@@ -12,6 +12,9 @@ class Calculator implements Math{
     public double multiply(int a,int b){
         return a*b;
     }
+    public int subtract(int a,int b){
+        return a-b;
+    }
 }
 public class LamdaFunctionWithFunctionalInterfaceEx {
 }
