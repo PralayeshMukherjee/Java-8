@@ -9,6 +9,9 @@ class Calculator implements Math{
     public int sum(int a,int b){
         return a+b;
     }
+    public double multiply(int a,int b){
+        return a*b;
+    }
 }
 public class LamdaFunctionWithFunctionalInterfaceEx {
 }
