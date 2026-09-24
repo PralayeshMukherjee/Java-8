@@ -3,9 +3,9 @@ import java.util.*;
 
 interface Math{
     int sum(int a,int b);
-    double multiply(int a,int b);
+    int multiply(int a,int b);
     int subtract(int a,int b);
-    long divide(int a,int b);
+    int divide(int a,int b);
     int modulas(int a,int b);
 }
 class Calculator implements Math{
@@ -14,7 +14,7 @@ class Calculator implements Math{
         return a+b;
     }
     @Override
-    public double multiply(int a,int b){
+    public int multiply(int a,int b){
         return a*b;
     }
     @Override
@@ -22,7 +22,7 @@ class Calculator implements Math{
         return a-b;
     }
     @Override
-    public long divide(int a,int b){
+    public int divide(int a,int b){
         return a/b;
     }
     @Override
