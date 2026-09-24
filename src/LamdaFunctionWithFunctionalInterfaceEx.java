@@ -1,4 +1,4 @@
-interface Car{
+interface Math{
 
 }
 public class LamdaFunctionWithFunctionalInterfaceEx {
