@@ -18,6 +18,9 @@ class Calculator implements Math{
     public long divide(int a,int b){
         return a/b;
     }
+    public int modulas(int a,int b){
+        return a%b;
+    }
 }
 public class LamdaFunctionWithFunctionalInterfaceEx {
 }
