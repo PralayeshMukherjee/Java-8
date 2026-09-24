@@ -1,8 +1,8 @@
 interface Math{
     int sum();
-    int multiply();
+    double multiply();
     int subtract();
-    int divide();
+    long divide();
     int modulas();
 }
 public class LamdaFunctionWithFunctionalInterfaceEx {
