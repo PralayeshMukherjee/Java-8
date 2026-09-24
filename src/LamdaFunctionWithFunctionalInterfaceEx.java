@@ -30,8 +30,9 @@ class Calculator implements Math{
     }
 }
 public class LamdaFunctionWithFunctionalInterfaceEx {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Calculator calculator = new Calculator();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        String[] input = bufferedReader.readLine().split(",");
     }
 }
