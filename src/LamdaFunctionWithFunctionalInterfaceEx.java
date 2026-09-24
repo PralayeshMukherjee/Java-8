@@ -41,5 +41,7 @@ public class LamdaFunctionWithFunctionalInterfaceEx {
         list.add(calculator.multiply(Integer.parseInt(input[0]),Integer.parseInt(input[1])));
         list.add(calculator.divide(Integer.parseInt(input[0]),Integer.parseInt(input[1])));
         list.add(calculator.modulas(Integer.parseInt(input[0]),Integer.parseInt(input[1])));
+
+        list.forEach(n-> System.out.println(n+" "));
     }
 }
