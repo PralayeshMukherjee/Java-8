@@ -5,5 +5,8 @@ interface Math{
     long divide();
     int modulas();
 }
+class Calculator implements Math{
+
+}
 public class LamdaFunctionWithFunctionalInterfaceEx {
 }
