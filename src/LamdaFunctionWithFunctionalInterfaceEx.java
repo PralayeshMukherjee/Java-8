@@ -37,5 +37,9 @@ public class LamdaFunctionWithFunctionalInterfaceEx {
         String[] input = bufferedReader.readLine().split(",");
         List<Integer> list = new ArrayList<>();
         list.add(calculator.sum(Integer.parseInt(input[0]),Integer.parseInt(input[1])));
+        list.add(calculator.subtract(Integer.parseInt(input[0]),Integer.parseInt(input[1])));
+        list.add(calculator.multiply(Integer.parseInt(input[0]),Integer.parseInt(input[1])));
+        list.add(calculator.divide(Integer.parseInt(input[0]),Integer.parseInt(input[1])));
+        list.add(calculator.modulas(Integer.parseInt(input[0]),Integer.parseInt(input[1])));
     }
 }
