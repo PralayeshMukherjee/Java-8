@@ -28,4 +28,7 @@ class Calculator implements Math{
     }
 }
 public class LamdaFunctionWithFunctionalInterfaceEx {
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+    }
 }
