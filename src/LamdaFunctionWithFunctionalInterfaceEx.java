@@ -36,5 +36,6 @@ public class LamdaFunctionWithFunctionalInterfaceEx {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         String[] input = bufferedReader.readLine().split(",");
         List<Integer> list = new ArrayList<>();
+        list.add(calculator.sum(Integer.parseInt(input[0]),Integer.parseInt(input[1])));
     }
 }
