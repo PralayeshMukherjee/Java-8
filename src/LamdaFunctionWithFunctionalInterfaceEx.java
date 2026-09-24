@@ -1,3 +1,5 @@
+import java.io.*;
+
 interface Math{
     int sum(int a,int b);
     double multiply(int a,int b);
@@ -30,5 +32,6 @@ class Calculator implements Math{
 public class LamdaFunctionWithFunctionalInterfaceEx {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
     }
 }
