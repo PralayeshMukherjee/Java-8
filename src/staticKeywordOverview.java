@@ -11,6 +11,5 @@ class StaticB extends StaticA{
 }
 public class staticKeywordOverview {
     public static void main(String[] args) {
-
     }
 }
