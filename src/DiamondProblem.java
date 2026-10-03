@@ -16,6 +16,9 @@ class midParentC extends superParentA{
     }
 }
 class childD extends midParentB,midParentC{
+//    here it gives me error because java doesn't allow us to extend multiple
+//    classes so that java avoid the diamond problem
+//    diamond problem is a problem where child class try to override the method from 2 classes which already have the same class
     @Override
     public void display(){
         System.out.println("Child D executed!");
