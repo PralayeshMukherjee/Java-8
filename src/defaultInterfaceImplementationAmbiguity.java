@@ -8,5 +8,11 @@ interface Running{
         System.out.println("Run!");
     }
 }
-public class defaultInterfaceImplementationAmbiguity {
+public class defaultInterfaceImplementationAmbiguity implements Walking,Running{
+    @Override
+    public void move(){
+        System.out.println("Stop");
+    }
+//    we can't directly implement the default method in interface
+//    so we need to override the method
 }
