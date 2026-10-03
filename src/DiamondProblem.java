@@ -9,6 +9,12 @@ class midParentB extends superParentA{
         System.out.println("Mid Parent B executed!");
     }
 }
+class midParentC extends superParentA{
+    @Override
+    public  void display(){
+        System.out.println("Mid Parent C executed!");
+    }
+}
 public class DiamondProblem {
     public static void main(String[] args) {
 
